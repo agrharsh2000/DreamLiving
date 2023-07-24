@@ -1,7 +1,7 @@
 <template>
 <nav class="navigation">
     <div>
-        <img src="../assets/DreamL.png" alt="Image" style="margin-left: 10px; width: 200px; height: 50px;">
+        <img src="../assets/logo.png" alt="Image" style="margin-left: 40px; width: 200px; height: 50px;">
     </div>
     <div class="nav-links">
 

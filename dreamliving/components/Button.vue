@@ -59,6 +59,9 @@ export default {
   .my-button--secondary {
     background-color: #ffffff;
     color: #000000;
+    border: none;
+    padding-left: 22px;
+    padding-right: 22px;
  
   }
     .my-button:hover {

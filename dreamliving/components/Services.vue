@@ -4,10 +4,11 @@
        <h1 class="title">Our Services</h1>
        <div class="container">
         <div class="gallery">
-            <div class="img-box"><h3>Australia</h3></div>
-            <div class="img-box"><h3>japan</h3></div>
-            <div class="img-box"><h3>UK</h3></div>
-            <div class="img-box"><h3>India</h3></div>
+            <div class="img-box"><h2>Buy a House</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quae?</p></div>
+            <div class="img-box"><h2>Rent a House</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quae?</p></div>
+            <div class="img-box"><h2>Sell a House</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quae?</p></div>
+            <div class="img-box"><h2>Sell a House</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quae?</p></div>
         </div>
        </div>
     
@@ -49,7 +50,7 @@ text-align: center;
         height:250px;
         margin:25px;
         border-radius: 20px;
-        background: url(../assets/p1.jpg);
+        background: url(../assets/p6.jpg);
         background-size:cover;
         background-position: center;
         position: relative;
@@ -62,7 +63,7 @@ text-align: center;
         background-position: center;
     }
     .img-box:nth-child(3){
-        background: url(../assets/p3.jpg);
+        background: url(../assets/p5.jpg);
         background-size:cover;
         background-position: center;
     }
@@ -72,21 +73,30 @@ text-align: center;
         background-position: center;
     }
 
-    .img-box h3{
-        color: #000;
+    .img-box h2{
+        color: #FEFEFD;
         position: absolute;
-        bottom: 0;
-        left: 30px;
-        transition: bottom 0.5s;
+        top: 70px;
+        left: 70px
         
     }
+    .img-box p{
+        margin-top:20px;
+        color: #FEFEFD;
+        position: absolute;
+        top: 100px;
+        left: 50px
+        
+    }
+
+
     .img-box:hover{
         width:300px;
         height: 350px;
         cursor: pointer;
     }
 
-    .img-box:hover h3{
+    .img-box:hover h2{
         bottom: 25px;
     }
 
